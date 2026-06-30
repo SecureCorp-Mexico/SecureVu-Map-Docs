@@ -183,7 +183,7 @@ def main():
         print("slide.slide fields:", sorted(sfields)); return
 
     def foc(model, domain, vals, label):
-        ids = ex(model, "search", domain, {"limit": 1})
+        ids = ex(model, "search", domain, limit=1)
         if ids:
             print(f"= {label} (id {ids[0]})"); return ids[0]
         rid = ex(model, "create", vals)
