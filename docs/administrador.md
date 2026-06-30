@@ -89,8 +89,16 @@ la [guía del usuario](usuario.md#5-alarmas-sos--tamper)). No requieren
 configuración en este panel; cualquier usuario puede **reconocer/resolver/anotar**
 y queda registrado con su nombre.
 
-Si las alarmas **no llegan**, verifica con el equipo técnico que el servidor
-SecureTrax tenga activado el **reenvío de eventos** hacia el sistema.
+En **Administración → Integración SecureTrax** ves el **estado del enlace**:
+conectado al broker, tópico MQTT, último mensaje y última alarma recibidos, y los
+conteos. Si **Conectado** dice «No» o no llegan alarmas nuevas, pide al equipo
+técnico que revise el **reenvío de eventos** en SecureTrax.
+
+## 4b. Auditoría del asistente IA
+
+En **Administración → Asistente IA → «Ver conversaciones (auditoría)»** se lista
+el historial de preguntas y respuestas del chat, con **usuario y hora**, para
+fines de auditoría.
 
 ## 5. Cámaras que no aparecen en el mapa
 
